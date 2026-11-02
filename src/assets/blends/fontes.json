@@ -1,0 +1,46 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "preparo-grelha.jpg",
+      "autor": "Capvideo",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Hamburgers_grilling_outdoors_over_propane.jpg",
+      "licenca": "CC BY-SA 4.0",
+      "url_licenca": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "d25e4d63f370f84e8a383bef3c0455b6934f8ed53d91f5e0d91fa6480e5e17b2",
+      "mime": "image/jpeg",
+      "width": 1280,
+      "height": 960,
+      "alteracoes": "Nenhuma. Arquivo copiado integralmente.",
+      "revisao_visual": "Aprovada por Lucy conforme instrução desta tarefa; não é inspeção própria de Paulo.",
+      "uso": "Preparo ilustrativo genérico de terceiros; não é produto da loja nem fotografia de blend específico."
+    },
+    {
+      "arquivo": "preparo-montagem.jpg",
+      "autor": "Gnangcomapp",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Hamburger_gn14.jpg",
+      "licenca": "CC BY-SA 4.0",
+      "url_licenca": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "9cbc9a63f45e3ccef7b0bee3320c88d6b6bf5f82902010a393445f46c3d084cc",
+      "mime": "image/jpeg",
+      "width": 1280,
+      "height": 960,
+      "alteracoes": "Nenhuma. Arquivo copiado integralmente.",
+      "revisao_visual": "Aprovada por Lucy conforme instrução desta tarefa; não é inspeção própria de Paulo.",
+      "uso": "Preparo ilustrativo genérico de terceiros; não é produto da loja nem fotografia de blend específico."
+    },
+    {
+      "arquivo": "chapa.jpg",
+      "autor": "Acabashi",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Griddled_hamburger_Copped_Hall_house_and_gardens_open_day_event,_Essex,_England.jpg",
+      "licenca": "CC BY-SA 4.0",
+      "url_licenca": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "2fdc75640667aeeff273f48f46c7c7bc5246a06263997c944307a7aa262078ab",
+      "mime": "image/jpeg",
+      "width": 1280,
+      "height": 512,
+      "alteracoes": "Nenhuma. Arquivo copiado integralmente.",
+      "uso": "Preparo ilustrativo genérico de terceiros; não é produto da loja nem fotografia de blend específico."
+    }
+  ],
+  "aviso": "As licenças indicadas se aplicam às fotografias. Não há endosso dos autores à loja."
+}

@@ -1,0 +1,10 @@
+/* Family portrait only: original pixels/aspect ratio, fading into the real footer background. */
+.footer .footer-family-layout{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(28px,5vw,72px);align-items:start;margin-top:32px;padding-top:28px;border-top:1px solid var(--line);background:var(--coal)}
+.footer-family-layout>.footer-hours{min-width:0;max-width:none;margin-top:0;padding-top:0;border-top:0}
+.footer .owner-family{min-width:0;width:100%;max-width:28rem;justify-self:center;margin:0}
+.footer .owner-family img{display:block;width:100%;height:auto;object-fit:contain;filter:none;
+-webkit-mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent),linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent);
+mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent),linear-gradient(to bottom,transparent,#000 4%,#000 96%,transparent);
+-webkit-mask-composite:source-in;mask-composite:intersect;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+.footer .owner-family figcaption{font:italic 22px/1.5 var(--serif);color:var(--cream);padding-top:18px}
+@media(max-width:760px){.footer .footer-family-layout{grid-template-columns:1fr;gap:32px}.footer .owner-family{max-width:28rem}}

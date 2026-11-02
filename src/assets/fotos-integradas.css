@@ -1,0 +1,34 @@
+/* Photo-only edge integration. Alpha reveals each section's real background:
+   coal: hero/selection/grill/gallery; paper: business; coal-soft: delivery.
+   No overlay over links, captions, controls or video. No source image changes.
+   Fallback without mask support is the complete, visible photograph. */
+.hero .hero-visual{align-self:center;min-height:0;height:auto;background:transparent}
+.hero .hero-visual>img{position:static;width:100%;height:auto;object-fit:contain;filter:none}
+.hero .hero-visual:after{pointer-events:none;background:linear-gradient(0deg,rgba(25,27,23,.75),transparent 35%)}
+.selection .owner-selection>img,
+.owner-grill .owner-grid>figure>img,
+.gallery .gallery-grid>figure>a>img:not(.social-icon),
+.gallery .carousel-slide>img,
+.business .blend-photo>img,
+.delivery .media-layout>figure>img{
+ background:transparent;
+ /* Only the outer 2% softens: central 96% of each axis remains opaque. */
+ --photo-edge:2%;--photo-inner:98%;
+}
+.hero .hero-visual>img{--photo-edge:4%;--photo-inner:96%}
+/* Feature-gated for a visible fallback in engines without compositing support. */
+@supports (mask-composite:intersect) or (-webkit-mask-composite:source-in){
+ .hero .hero-visual>img,
+ .selection .owner-selection>img,
+ .owner-grill .owner-grid>figure>img,
+ .gallery .gallery-grid>figure>a>img:not(.social-icon),
+ .gallery .carousel-slide>img,
+ .business .blend-photo>img,
+ .delivery .media-layout>figure>img{
+  -webkit-mask-image:linear-gradient(to right,transparent,#000 var(--photo-edge),#000 var(--photo-inner),transparent),linear-gradient(to bottom,transparent,#000 var(--photo-edge),#000 var(--photo-inner),transparent);
+  -webkit-mask-size:100% 100%;-webkit-mask-repeat:no-repeat;
+  -webkit-mask-composite:source-in;
+  mask-image:linear-gradient(to right,transparent,#000 var(--photo-edge),#000 var(--photo-inner),transparent),linear-gradient(to bottom,transparent,#000 var(--photo-edge),#000 var(--photo-inner),transparent);
+  mask-size:100% 100%;mask-repeat:no-repeat;mask-composite:intersect;
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "origem": "fotos enviadas pelo responsável",
+  "tratamento": "JPEGs originais, sem recorte ou filtros; revisão visual e uso aprovados por Lucy.",
+  "observacao": "Não identifica corte, raça, certificação ou disponibilidade. Não são atribuídas ao Instagram.",
+  "fotos": [
+    {
+      "arquivo": "foto-01.jpg",
+      "original": "img_0a3a83b6c90d.jpg",
+      "dimensoes": [
+        768,
+        960
+      ],
+      "sha256": "63f0668c1bc29240f1c077facf5b6ee8e9eff4cd83182e7a656f31a4f9b01c7c"
+    },
+    {
+      "arquivo": "foto-02.jpg",
+      "original": "img_e41ecf5dd515.jpg",
+      "dimensoes": [
+        1024,
+        1280
+      ],
+      "sha256": "835e5d04c5b4f1eea0c16d4a8447bfa1f06b0d808902ca9e285b1999ce01883d"
+    },
+    {
+      "arquivo": "foto-03.jpg",
+      "original": "img_54dec0f96adf.jpg",
+      "dimensoes": [
+        1280,
+        1280
+      ],
+      "sha256": "22be582a2dfc7d25e451e0aa7da5499417bfa071a05266ccecb2daa46e29b913"
+    },
+    {
+      "arquivo": "foto-04.jpg",
+      "original": "img_eed6c2841e8b.jpg",
+      "dimensoes": [
+        1024,
+        1280
+      ],
+      "sha256": "681ae38dfef68f4255fef7c53871711b644eeee2b6945627d0a4c7e20929b57d"
+    }
+  ]
+}

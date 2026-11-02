@@ -1,0 +1,17 @@
+{
+  "origem": "Foto e vídeo enviados pelo responsável; poster extraído do vídeo a 1 segundo. Foto e vídeo publicados sem alteração.",
+  "arquivos": {
+    "entrega-londrina.jpg": {
+      "sha256": "757ca42d35d9a06fa8e86e5a201e5a6ea8dcd47d5bcbcd52458d5ecfa1afce00",
+      "bytes": 127593
+    },
+    "selecao.mp4": {
+      "sha256": "c320dd8daee8fa8d2b37b29a966677ebf394d724b0e9f27b09cdd82cd8785bf1",
+      "bytes": 3176193
+    },
+    "video-poster.jpg": {
+      "sha256": "10d62de222081f53d60066cb803b6e38d3590bb7097fa2d8a35db0b93aa2b9ff",
+      "bytes": 50857
+    }
+  }
+}

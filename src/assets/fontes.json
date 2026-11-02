@@ -1,0 +1,22 @@
+[
+  {
+    "arquivo": "assets/mesa.jpg",
+    "url": "https://chatgpt.com/s/m_6ae78854db2c819181130dcc79dd3983",
+    "fonte": "Imagem fornecida pelo dono; seleção visual aprovada por Lucy",
+    "uso": "Imagem ilustrativa por IA; não representa produtos ou instalações reais da Casa de Carnes Paraná. Modelo gerador não verificado.",
+    "bytes": 1812739,
+    "content_type": "image/jpeg",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e188bb158d8b33c82c7b0d4e455653112f3cd7d190978fb11869e2413edaf4b5",
+    "processamento": "Original PNG 1672 × 941 do HTML público, convertido em JPEG quality=100 e subsampling=0; sem crop, filtros ou redimensionamento."
+  },
+  {
+    "arquivo": "assets/cortes.jpg",
+    "url": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1200&q=85",
+    "fonte": "Unsplash",
+    "uso": "Fotografia ilustrativa de terceiros; não representa produtos da Casa de Carnes Paraná.",
+    "bytes": 145545,
+    "content_type": "image/jpeg"
+  }
+]
